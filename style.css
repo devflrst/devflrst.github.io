@@ -1,0 +1,17 @@
+div:hover{
+    background-color: #a9a9a9;
+    align-items: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+}
+button :active
+{
+background-color: black;
+transition: 5ms;
+}
